@@ -1,5 +1,5 @@
 # Hector's Garage Sale 
-Original Website Template: https://www.free-css.com/free-css-templates/page295/edgecut
+Original Website Template: https://www.free-css.com/free-css-templates/page295/edgecut <br>
 Pages Link:  https://ivysfiles.github.io/Final/
 
 <br>
