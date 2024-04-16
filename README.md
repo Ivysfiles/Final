@@ -1,7 +1,7 @@
 # Hector's Garage Sale 
 Original Website Template: https://www.free-css.com/free-css-templates/page295/edgecut
 
-<br><br><br>
+<br>
 
 ## Changes Made
 
