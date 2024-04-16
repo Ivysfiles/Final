@@ -651,7 +651,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <script type="text/javascript">
-    $(document).ready(function() {
+     $(document).ready(function() {
       $("#contactForm").on("submit", function(event) {
         event.preventDefault();
         let name = $("#name").val();
@@ -717,12 +717,6 @@
       document.getElementById('newsletter').addEventListener('submit', function (event) {
         event.preventDefault();
 
-        $('.buy-now-btn').click(function(event) {
-          event.preventDefault();
-          let productName = $(this).data('product-id');
-          alert(productName + " added to cart.");
-        });
-      });
 
         fetch('data.json')
                 .then(response => response.json())
@@ -761,11 +755,15 @@
                 })
                 .catch(error => console.error('Error fetching JSON:', error));
 
+      });
 
+      $('.buy-now-btn').click(function(event) {
+        event.preventDefault();
+        let productName = $(this).data('product-id');
+        alert(productName + " added to cart.");
+      });
+      
     });
-
-
-
   </script>
 </body>
 </html>
